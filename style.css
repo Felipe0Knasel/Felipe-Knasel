@@ -92,3 +92,8 @@ backdrop-filter: blur(3.2px);
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
+
+#liSobre {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
