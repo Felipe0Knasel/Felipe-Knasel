@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tarefa 10</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+crossorigin="anonymous"> 
+
+<script type="text/javascript" src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
+integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" 
+crossorigin="anonymous"></script> 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" 
+integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" 
+crossorigin="anonymous"></script> 
+
+</head>
+<body>
+	<h1 style="color:#514BF2; text-align: center; padding: 20px;">Café Cyber Cat</h1>
+	<h4 style="text-align: center;">Tome seu café na companhia de um gatinho robô</h4>
+	<p style="text-align: center; padding-bottom: 30px;">Atendimento 24 horas ≧◠‿●‿◠≦</p>
+
+	<h4 style="text-align: center; padding: 20px">Faça seu cadastro</h4>
+
+	<div class="container mb-5">
+		<form name="cadastrar" onsubmit="event.preventDefault()">
+
+
+
+				<div class="mb-3 col">
+					<label for="nomeCad" class="form-label">Nome completo: </label>
+					<input type="text" id="nomeCad" class="form-control" placeholder="Seu nome" name="nome" required>
+				</div>
+
+				<div class="mb-3 col">
+					<label for="emailCad" class="form-label">Email: </label>
+					<input type="text" id="emailCad" class="form-control" placeholder="exemplo@exemplo.com" name="email" required>
+				</div>
+				<div class="mb-3 col">
+					<label for="dataCad" class="form-label">Data: </label>
+					<input type="date" id="dataCad" class="form-control" name="data" required>
+				</div>
+	
+
+
+			<div class="col-auto">
+				<button type="submit" class="btn btn-primary mb-3" onclick="insere()">Cadastrar</button>
+			</div>
+
+				<div class="container">
+
+		<table class="table table-hover">
+
+			<thead>
+
+				<tr>
+					<th scope="col">Nome</th>
+					<th scope="col">Email</th>
+					<th scope="col">Dia do atendimento</th>
+				</tr>
+
+				<thead>
+
+					<tbody>
+
+						<tr>
+							<td>Pedro</td>
+							<td>pedro123@gmail.com</td>
+							<td>11/12/2022</td>
+						</tr>
+						
+						<tbody id="inserirTabela">
+							
+						</tbody>
+					</tbody>
+				</thead>
+			</thead>
+		</table>
+	</div>
+</body>
+</html>

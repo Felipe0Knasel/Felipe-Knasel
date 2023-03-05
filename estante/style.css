@@ -1,0 +1,153 @@
+
+body {
+	/* background */
+	background-color: #fff;
+
+	/* texto */
+	font-family: trebuchet MS;
+
+	/* alinhamento e tamanho */
+	width: 85%;
+	margin: auto;
+}
+	
+th {
+	background-color: rgb(45, 47, 228); 
+	color: #fff;
+
+
+	/* borda */
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+td {
+	background-color: rgb(220, 220, 220);
+	color: black; 
+	text-align: center;
+
+
+	/* borda */
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+td , th {
+
+	/* margem */
+	padding: 8px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+
+
+}
+
+
+.titulol {
+	color: rgb(45, 47, 228);
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+	text-indent: 20px;
+}
+
+h1 { 
+	/* cabeçalho */
+	background-color: rgb(242, 242, 242);
+	text-align: center;
+	color: rgb(45, 47, 228);
+	padding: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	/* sumario, sinopse */
+	background-color: rgb(242, 242, 242);
+	color: rgb(45, 47, 228);
+}
+
+img { 
+	 width: 30%;
+	 display: block;
+	 margin: auto;
+	 border-radius: 40px;
+	 border-style: solid;
+	 border-color: black;
+	 border-width: 3px;
+
+
+ }
+
+ ol {
+	background-color: rgb(45, 47, 228);
+	margin-bottom: 50px;
+	margin-top: 0px;
+
+	padding-left: 256px;
+	padding-right: 256px;
+	padding-top: 0px;
+	padding-bottom: 64px;
+
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+ }
+
+a:link { 
+  	color: #fff;
+  }
+
+a:houver {
+	color: #fff;
+}
+
+a:visited {
+	color: rgb(220, 220, 220);
+}
+
+span { 
+  	color: rgb(45, 47, 228);
+  	font-style: oblique;
+  }
+
+section {
+	background-color: rgb(242, 242, 242);
+
+	/* margem */
+	padding-left: 256px;
+	padding-right: 256px;
+	padding-top: 64px;
+	padding-bottom: 64px;
+
+	margin-bottom: 64px;
+	margin-top: 64px;
+
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 40px;
+}
+
+table {
+	width: 100%;
+	padding: 20px;
+}
+
+#sumario {
+	color: #fff;
+	background-color: rgb(45, 47, 228);
+
+	padding-left: 256px;
+	padding-right: 256px;
+	padding-top: 64px;
+	padding-bottom: 64px;
+
+
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+}
+
